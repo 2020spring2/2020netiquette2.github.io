@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+	
+}
+#body {
+	border: 10px ridge #352323;
+	background: radial-gradient(#15762F, #096121);
+	padding: 20px;
+	margin: 0px;
+}
+.title {
+	color: #FFFFFF;
+	text-align: center;
+	font-family: "Courier New";
+}
+p {
+	color: #E0F3FF;
+	font-family: "Monaco";
+	font-size: 90%;
+	border-bottom: dashed thin #E0F3FF;
+	text-align: justify;
+	max-width: 400px;
+	min-height: 100px;
+	margin: 10px 5px 10px 20px;
+	padding: 5px;
+}
+.ends{
+	border-bottom: none;
+}
+.question {
+	display: inline-block;
+	width: 45%;
+}
+.allQuestions {
+	border:medium double #E0F3FF;
+	max-width: 1000px;
+	padding-left: 5.5%;
+	align-items: center;
+}
