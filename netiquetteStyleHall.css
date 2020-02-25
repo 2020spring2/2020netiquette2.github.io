@@ -8,10 +8,11 @@ body{
 	padding: 20px;
 	margin: 0px;
 }
-.title {
+#title {
 	color: #FFFFFF;
 	text-align: center;
 	font-family: "Courier New";
+	text-transform: capitalize;
 }
 p {
 	color: #E0F3FF;
