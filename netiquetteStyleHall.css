@@ -6,7 +6,7 @@ body{
 	border: 10px ridge #352323;
 	background: radial-gradient(#15762F, #096121);
 	padding: 20px;
-	margin: 0px;
+	margin: auto;
 }
 #title {
 	color: #FFFFFF;
