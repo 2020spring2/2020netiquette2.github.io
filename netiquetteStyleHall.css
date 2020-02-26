@@ -15,6 +15,7 @@ body{
 	font-family: "Courier New";
 	text-transform: capitalize;
 }
+
 p {
 	color: #E0F3FF;
 	font-family: "Monaco";
@@ -39,7 +40,27 @@ p {
 	max-width: 1000px;
 	padding-left: 5.5%;
 }
+footer{
+	
+	display:inline-block;
+}
+#aside {
+	float: right;
+	color: #000000;
+	font-family: "Monaco";
+	font-weight: bold;
+	font-size: 100%;
+	border: none;
+	margin: 0px auto;
+	right: 10px;
+	text-align: center;
+}
 #linkToPage {
+	float:left;
+	color: #000000;
+	font-family: "Monaco";
+	font-weight: bold;
+	font-size: 90%;
 	text-align:center;
 	border: none;
 	margin: 0px auto;
@@ -47,4 +68,14 @@ p {
 	min-height: 50px;
 	max-height: 75px;
 	max-width: 150px;
+}
+a {
+	min-width: 20px;
+	max-width: 150px;
+	border: thin inset #000000;
+	display: inline-block;
+}
+a:hover {
+	background:#A1A1A1;
+	color:#2359CB;
 }
