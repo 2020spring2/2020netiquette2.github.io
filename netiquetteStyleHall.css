@@ -1,12 +1,13 @@
 @charset "UTF-8";
 body{
-	
 }
 #body {
 	border: 10px ridge #352323;
 	background: radial-gradient(#15762F, #096121);
 	padding: 20px;
 	margin: auto;
+	max-width: 1050px;
+	
 }
 #title {
 	color: #FFFFFF;
@@ -17,6 +18,7 @@ body{
 p {
 	color: #E0F3FF;
 	font-family: "Monaco";
+	font-weight: bold;
 	font-size: 90%;
 	border-bottom: dashed thin #E0F3FF;
 	text-align: justify;
@@ -36,5 +38,13 @@ p {
 	border:medium double #E0F3FF;
 	max-width: 1000px;
 	padding-left: 5.5%;
-	align-items: center;
+}
+#linkToPage {
+	text-align:center;
+	border: none;
+	margin: 0px auto;
+	padding: 0px;
+	min-height: 50px;
+	max-height: 75px;
+	max-width: 150px;
 }
