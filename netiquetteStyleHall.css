@@ -79,3 +79,6 @@ a:hover {
 	background:#A1A1A1;
 	color:#2359CB;
 }
+.images {
+	border:none !important; 
+}
